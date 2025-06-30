@@ -18,9 +18,19 @@
 
 ## 🚀 Cách sử dụng
 
+### Clone dự án về máy
+```bash
+# Clone repository về máy
+git clone https://github.com/yourusername/Ruler-Divide-Visualization.git
+
+# Di chuyển vào thư mục dự án
+cd Ruler-Divide-Visualization
+```
+
 ### Chạy ứng dụng
-1. Mở file `index.html` trong trình duyệt
-2. Hoặc double-click vào `index.html`
+1. Mở file `index.html` trong trình duyệt web
+2. Hoặc double-click vào file `index.html`
+3. Hoặc sử dụng Live Server (nếu có extension trong VS Code)
 
 ### Điều khiển
 - **Nhập độ dài thước**: Thay đổi số trong ô input và click "Khởi tạo"
@@ -43,11 +53,13 @@
 ## 📁 Cấu trúc dự án
 
 ```
-Ruler-Divider/
+Ruler-Divide-Visualization/
 ├── index.html          # Giao diện chính
 ├── styles.css          # Styling và responsive
 ├── index.js            # Logic ứng dụng (class-based)
-└── README.md           # Tài liệu này
+├── README.md           # Tài liệu này
+└── assets/
+    └── screenshot.png  # Ảnh chụp màn hình
 ```
 
 ## 🔧 Thuật toán
