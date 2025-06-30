@@ -4,7 +4,7 @@ let appState = {
   currentStep: 0,
   isPlaying: false,
   lastStepTime: 0,
-  stepInterval: 500, // ms
+  stepInterval: 100, // ms
   
   rulerLengthCm: 16,
   canvas: null,
