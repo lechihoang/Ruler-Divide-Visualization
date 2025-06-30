@@ -1,6 +1,6 @@
 # 📷 Screenshot
 
-![Ruler Divide Visualization](img/screenshot.png)
+![Ruler Divide Visualization](assets/screenshot.png)
 
 # 📏 Ruler Divide Visualization
 
