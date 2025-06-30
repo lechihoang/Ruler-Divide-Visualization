@@ -64,9 +64,9 @@ Ruler-Divide-Visualization/
 
 ## 🔧 Thuật toán
 
-Ứng dụng sử dụng thuật toán đệ quy để chia thước:
+Ứng dụng sử dụng thuật toán đệ quy đơn giản để chia thước:
 
-1. **Bước đầu**: Chia đoạn [0, L] tại điểm giữa L/2
-2. **Đệ quy**: Tiếp tục chia các đoạn con
-3. **Điều kiện dừng**: Khi đoạn chia < 0.01cm hoặc độ cao vạch < 0.1cm
-4. **Độ cao vạch**: Giảm dần 0.2cm mỗi lần chia
+1. **Bắt đầu**: Khởi tạo đoạn thước có độ dài L (cm) - Người dùng có thể nhập bất kỳ độ dài nào
+2. **Chia đôi**: Tìm điểm giữa của đoạn đang xét và vẽ vạch chia ở điểm đó, độ dài vạch chia sẽ giảm dần khi level đệ quy tăng. Sau đó thực hiện tương tự đối với hai đoạn con được chia bởi điểm giữa
+3. **Lặp lại**: Tiếp tục chia đôi các đoạn nhỏ hơn - Áp dụng cùng quy tắc cho tất cả đoạn con
+4. **Điều kiện dừng**: Khi đạt số level tối đa hoặc đoạn đang tính toán có độ dài quá nhỏ 
