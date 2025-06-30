@@ -17,7 +17,6 @@
 - 📐 **Tùy chỉnh độ dài**: Cho phép nhập độ dài thước tùy ý (cm)
 - ⏯️ **Điều khiển phát**: Play/Pause, Next/Previous, Reset
 - 🎚️ **Slider điều hướng**: Nhảy đến bước bất kỳ
-- ⌨️ **Phím tắt**: Mũi tên trái/phải, Space
 - 📱 **Responsive**: Tự động thích ứng mọi kích thước màn hình
 - 🎨 **Giao diện hiện đại**: Gradient, shadows, animations mượt mà
 
