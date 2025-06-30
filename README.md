@@ -8,6 +8,8 @@
 
 🌐 **[Demo trực tiếp tại đây](https://ruler-divide-visualization.vercel.app/)** - Trải nghiệm ngay không cần cài đặt!
 
+🔗 **[Source code trên GitHub](https://github.com/lechihoang/Ruler-Divide-Visualization)**
+
 > **📚 Bài tập Bonus** - Môn **Phân tích và thiết kế thuật toán (CS112.P21)**, Trường **Đại học Công nghệ Thông tin - ĐHQG-HCM(UIT)**  
 > Thực hiện dưới sự hướng dẫn của **TS. Huỳnh Thị Thanh Thương** - Khoa Khoa học Máy tính
 
@@ -73,4 +75,4 @@ Ruler-Divide-Visualization/
 1. **Bắt đầu**: Khởi tạo đoạn thước có độ dài L (cm) - Người dùng có thể nhập bất kỳ độ dài nào
 2. **Chia đôi**: Tìm điểm giữa của đoạn đang xét và vẽ vạch chia ở điểm đó, độ dài vạch chia sẽ giảm dần khi level đệ quy tăng. Sau đó thực hiện tương tự đối với hai đoạn con được chia bởi điểm giữa
 3. **Lặp lại**: Tiếp tục chia đôi các đoạn nhỏ hơn - Áp dụng cùng quy tắc cho tất cả đoạn con
-4. **Điều kiện dừng**: Khi đạt số level tối đa hoặc đoạn đang tính toán có độ dài quá nhỏ 
+4. **Điều kiện dừng**: Khi đạt số level tối đa hoặc đoạn đang tính toán có độ dài quá nhỏ
