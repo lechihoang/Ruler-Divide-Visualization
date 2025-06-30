@@ -6,7 +6,7 @@
 
 Ứng dụng mô phỏng quá trình chia thước kẻ bằng phương pháp đệ quy, được xây dựng bằng HTML, CSS và JavaScript
 
-🌐 **[Demo trực tiếp tại đây](https://ruler-divider.vercel.app/)** - Trải nghiệm ngay không cần cài đặt!
+🌐 **[Demo trực tiếp tại đây](https://ruler-divide-visualization.vercel.app/)** - Trải nghiệm ngay không cần cài đặt!
 
 > **📚 Bài tập Bonus** - Môn **Phân tích và thiết kế thuật toán (CS112.P21)**, Trường **Đại học Công nghệ Thông tin - ĐHQG-HCM(UIT)**  
 > Thực hiện dưới sự hướng dẫn của **TS. Huỳnh Thị Thanh Thương** - Khoa Khoa học Máy tính
