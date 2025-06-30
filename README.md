@@ -1,6 +1,10 @@
-# 📏 Ruler Divide Visualizer
+# 📷 Screenshot
 
-Ứng dụng mô phỏng quá trình chia thước kẻ bằng phương pháp đệ quy, được xây dựng bằng HTML, CSS và JavaScript thuần.
+![Ruler Divide Visualization](img/screenshot.png)
+
+# 📏 Ruler Divide Visualization
+
+Ứng dụng mô phỏng quá trình chia thước kẻ bằng phương pháp đệ quy, được xây dựng bằng HTML, CSS và JavaScript
 
 ## ✨ Tính năng
 
@@ -54,27 +58,3 @@ Ruler-Divider/
 2. **Đệ quy**: Tiếp tục chia các đoạn con
 3. **Điều kiện dừng**: Khi đoạn chia < 0.01cm hoặc độ cao vạch < 0.1cm
 4. **Độ cao vạch**: Giảm dần 0.2cm mỗi lần chia
-
-## 💡 Đặc điểm kỹ thuật
-
-- **Độ dài vạch cố định**: Luôn theo quy ước thước 16cm
-- **Responsive canvas**: Tự động resize theo container
-- **Memory efficient**: Không phụ thuộc thư viện ngoài
-- **Cross-browser**: Hỗ trợ tất cả trình duyệt hiện đại
-
-## 🎯 Ưu điểm
-
-- ⚡ **Tốc độ cao**: Không cần load thư viện ngoài
-- 📦 **Nhẹ nhàng**: Tổng dung lượng < 50KB
-- 🔧 **Dễ maintain**: Code structure rõ ràng, modular
-- 🌐 **Universal**: Chạy trên mọi thiết bị có web browser
-
-## 📝 Ghi chú
-
-- Ứng dụng được tối ưu để chạy mượt mà trên cả desktop và mobile
-- Sử dụng thuật toán đệ quy để mô phỏng chính xác quá trình chia thước thực tế
-- Interface được thiết kế theo nguyên tắc UX hiện đại với feedback trực quan
-
----
-
-*Phát triển bằng HTML/CSS/JavaScript thuần - Không phụ thuộc framework*

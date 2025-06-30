@@ -1,4 +1,3 @@
-/* Reset và thiết lập cơ bản */
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +20,6 @@ body {
   overflow: hidden;
 }
 
-/* Header */
 header {
   background: linear-gradient(45deg, #4a90e2, #357abd);
   color: white;
@@ -40,7 +38,6 @@ header h1 {
   opacity: 0.9;
 }
 
-/* Điều khiển trên */
 .controls-top {
   padding: 20px;
   background: #f8f9fa;
@@ -94,7 +91,6 @@ header h1 {
   box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
 }
 
-/* Thông tin bước */
 .step-info {
   padding: 15px 20px;
   background: #e3f2fd;
@@ -116,7 +112,6 @@ header h1 {
   line-height: 1.4;
 }
 
-/* Container thước */
 .ruler-container {
   padding: 30px 20px;
   background: white;
@@ -133,7 +128,6 @@ header h1 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Điều khiển dưới */
 .controls-bottom {
   padding: 20px;
   background: #f8f9fa;
@@ -183,7 +177,6 @@ header h1 {
   background: linear-gradient(45deg, #dc3545, #c82333);
 }
 
-/* Slider */
 .slider-container {
   display: flex;
   justify-content: center;
@@ -228,7 +221,6 @@ header h1 {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   body {
     padding: 10px;
@@ -273,7 +265,6 @@ header h1 {
   }
 }
 
-/* Animation cho các vạch thước */
 .tick-animation {
   animation: drawTick 0.5s ease-out;
 }
@@ -289,7 +280,6 @@ header h1 {
   }
 }
 
-/* Highlight cho vạch hiện tại */
 .current-tick {
   stroke: #e74c3c;
   stroke-width: 3;

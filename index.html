@@ -9,14 +9,15 @@
 <body>
   <div class="container">
     <header>
-      <h1>Trình Mô Phỏng Chia Thước</h1>
-      <p class="instruction">Click các nút hoặc dùng phím ←/→, SPACE</p>
+      <h1>Ruler Divide Visualization</h1>
     </header>
 
     <div class="controls-top">
       <div class="input-group">
         <label for="rulerLength">Độ dài thước (cm):</label>
         <input type="number" id="rulerLength" value="16" min="1" step="1">
+        <label for="maxLevel">Level tối đa:</label>
+        <input type="number" id="maxLevel" value="6" min="1" step="1">
         <button id="btnApply">Khởi tạo</button>
       </div>
     </div>
